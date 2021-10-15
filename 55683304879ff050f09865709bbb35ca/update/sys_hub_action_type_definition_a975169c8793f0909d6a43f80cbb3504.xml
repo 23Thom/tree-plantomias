@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation>Best Action ever!!!</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Test Actions (Dirk)">6255161487d3f0909d6a43f80cbb3591</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This is just a test to try out GIT</description>
+        <ih_action>false</ih_action>
+        <internal_name>action_test_plantomias_appspoke</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Action Test (Plantomias App/Spoke)</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-15 18:27:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a975169c8793f0909d6a43f80cbb3504</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Action Test (Plantomias App/Spoke)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a975169c8793f0909d6a43f80cbb3504</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-15 18:28:14</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a975169c8793f0909d6a43f80cbb3504"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a975169c8793f0909d6a43f80cbb3504"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=a975169c8793f0909d6a43f80cbb3504^sys_idNOT INa8a5da1487d3f0909d6a43f80cbb35f0"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Action Test (Plantomias App/Spoke)">a975169c8793f0909d6a43f80cbb3504</action>
+        <cid>df8422ac-203d-4c8d-aea0-3e1f814a941b</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Log step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-15 18:28:13</sys_created_on>
+        <sys_id>a8a5da1487d3f0909d6a43f80cbb35f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-15 18:28:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a8a5da1487d3f0909d6a43f80cbb35f0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a8a5da1487d3f0909d6a43f80cbb35f0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-15 18:28:13</sys_created_on>
+        <sys_id>aca5da1487d3f0909d6a43f80cbb35f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-15 18:28:13</sys_updated_on>
+        <value>Dirk: The best Action ever ran again!! Well done</value>
+        <variable display_value="Log Message">4fc2fadbc712220061f553c6f0976388</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1^id=a8a5da1487d3f0909d6a43f80cbb35f0"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=a975169c8793f0909d6a43f80cbb3504^sys_idNOT INe8a5da1487d3f0909d6a43f80cbb35fb"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Action Test (Plantomias App/Spoke)">a975169c8793f0909d6a43f80cbb3504</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-15 18:28:13</sys_created_on>
+        <sys_id>e8a5da1487d3f0909d6a43f80cbb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-15 18:28:13</sys_updated_on>
+    </sys_hub_action_status_metadata>
+</record_update>
