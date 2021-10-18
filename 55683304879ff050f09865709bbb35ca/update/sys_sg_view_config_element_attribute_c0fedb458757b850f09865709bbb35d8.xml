@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute">
+    <sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE">
+        <description/>
+        <name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name>
+        <sys_class_name>sys_sg_view_config_element_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-18 07:43:56</sys_created_on>
+        <sys_id>c0fedb458757b850f09865709bbb35d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_attribute_c0fedb458757b850f09865709bbb35d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-18 07:43:56</sys_updated_on>
+        <translated_value/>
+        <value>user</value>
+        <view_config_element display_value="user-FieldValue">c0fedb458757b850f09865709bbb35d6</view_config_element>
+    </sys_sg_view_config_element_attribute>
+    <sys_translated_text action="delete_multiple" query="documentkey=c0fedb458757b850f09865709bbb35d8"/>
+</record_update>
