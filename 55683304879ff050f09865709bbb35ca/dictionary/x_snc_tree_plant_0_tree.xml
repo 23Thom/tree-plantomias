@@ -4,8 +4,9 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="open" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Approved" value="approved"/>
-                <element inactive_on_update="false" label="Open" value="open"/>
+                <element inactive_on_update="false" label="Open" sequence="10" value="open"/>
+                <element inactive_on_update="false" label="Review" sequence="20" value="review"/>
+                <element inactive_on_update="false" label="Approved" sequence="30" value="approved"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" display="true" label="Tree Name" max_length="500" name="tree_name" type="string"/>

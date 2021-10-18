@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_alp_quick_action_map">
+    <sys_sg_alp_quick_action_map action="DELETE">
+        <applet_launcher display_value="Tree Records">4cfedb458757b850f09865709bbb352c</applet_launcher>
+        <order>10</order>
+        <quick_action_button display_value="Create a new Tree Submission">fca5c19187d33010f09865709bbb35f9</quick_action_button>
+        <sys_class_name>sys_sg_alp_quick_action_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-18 15:12:38</sys_created_on>
+        <sys_id>30a5c19187d33010f09865709bbb35fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name>sys_sg_alp_quick_action_map_30a5c19187d33010f09865709bbb35fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-18 15:13:03</sys_updated_on>
+    </sys_sg_alp_quick_action_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</application>
+        <file_path/>
+        <instance_id>b378c1bfdb09f810a667cac5059619fe</instance_id>
+        <instance_name>demothom</instance_name>
+        <name>sys_sg_alp_quick_action_map_30a5c19187d33010f09865709bbb35fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_alp_quick_action_map"><sys_sg_alp_quick_action_map action="INSERT_OR_UPDATE"><applet_launcher display_value="Tree Records">4cfedb458757b850f09865709bbb352c</applet_launcher><order>10</order><quick_action_button display_value="Create a new Tree Submission">fca5c19187d33010f09865709bbb35f9</quick_action_button><sys_class_name>sys_sg_alp_quick_action_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-18 15:12:38</sys_created_on><sys_id>30a5c19187d33010f09865709bbb35fd</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package><sys_policy/><sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope><sys_update_name>sys_sg_alp_quick_action_map_30a5c19187d33010f09865709bbb35fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-18 15:13:03</sys_updated_on></sys_sg_alp_quick_action_map></record_update>]]></payload>
+        <payload_hash>-1965865666</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5679f304879ff050f09865709bbb35cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-18 15:13:03</sys_created_on>
+        <sys_id>8bb5c99187d33010f09865709bbb35ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c93f697770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-18 15:13:03</sys_updated_on>
+        <type>Quick actions menu</type>
+        <update_guid>03b5815167d3301012ea1539a939cef6</update_guid>
+        <update_guid_history>03b5815167d3301012ea1539a939cef6:-1965865666,f8a5c191d8d330103db639e6f76aabff:1268537001</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-18 15:14:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_alp_quick_action_map">sys_sg_alp_quick_action_map</sys_db_object>
+        <sys_id>061db864fae842ac807e16424fb69ac4</sys_id>
+        <sys_metadata>30a5c19187d33010f09865709bbb35fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_scope_delete display_value="">001074d5401047f4800002541dd1fa84</sys_scope_delete>
+        <sys_update_name>sys_sg_alp_quick_action_map_30a5c19187d33010f09865709bbb35fd</sys_update_name>
+        <sys_update_version display_value="sys_sg_alp_quick_action_map_30a5c19187d33010f09865709bbb35fd">8bb5c99187d33010f09865709bbb35ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-18 15:14:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
