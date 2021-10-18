@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets>44fedb458757b850f09865709bbb35e4</applets>
+        <data_item/>
+        <display_feed_count>true</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <is_hidden_preference_name/>
+        <orientation>vertical</orientation>
+        <required_roles/>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-18 07:43:56</sys_created_on>
+        <sys_id>54fe1f458757b850f09865709bbb359f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tree</sys_name>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name>sys_sg_icon_section_54fe1f458757b850f09865709bbb359f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-18 07:43:56</sys_updated_on>
+        <table/>
+        <title>Tree</title>
+        <visible_condition/>
+    </sys_sg_icon_section>
+</record_update>
