@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="All Tree Submissions Data Item">ddb723ce871f3010f09865709bbb35cd</data_item>
+        <interleaved_field/>
+        <name>91b763ce871f3010f09865709bbb3575 Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-21 10:56:11</sys_created_on>
+        <sys_id>19b763ce871f3010f09865709bbb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>91b763ce871f3010f09865709bbb3575 Item Stream</sys_name>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name>sys_sg_item_stream_19b763ce871f3010f09865709bbb3586</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-21 10:56:11</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>
