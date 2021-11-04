@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description/>
+        <execution_script/>
+        <name>Edit</name>
+        <parameter_screen/>
+        <query_condition table="x_snc_tree_plant_0_tree">sys_idSTARTSWITH{{sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-18 07:43:56</sys_created_on>
+        <sys_id>d0fe1f458757b850f09865709bbb3558</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Edit</sys_name>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_d0fe1f458757b850f09865709bbb3558</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-18 14:44:25</sys_updated_on>
+        <table>x_snc_tree_plant_0_tree</table>
+        <template>location={{Tree Submissions location}}^tree_name={{tree_name}}</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="DELETE" query="documentkey=d0fe1f458757b850f09865709bbb3558"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</application>
+        <file_path/>
+        <instance_id>b378c1bfdb09f810a667cac5059619fe</instance_id>
+        <instance_name>demothom</instance_name>
+        <name>sys_sg_write_back_action_item_d0fe1f458757b850f09865709bbb3558</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description/><execution_script/><name>Edit</name><parameter_screen/><query_condition table="x_snc_tree_plant_0_tree">sys_idSTARTSWITH{{sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{sys_id}}"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></query_condition><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-18 07:43:56</sys_created_on><sys_id>d0fe1f458757b850f09865709bbb3558</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Edit</sys_name><sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package><sys_policy/><sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope><sys_update_name>sys_sg_write_back_action_item_d0fe1f458757b850f09865709bbb3558</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-18 14:44:25</sys_updated_on><table>x_snc_tree_plant_0_tree</table><template>location={{Tree Submissions location}}^tree_name={{tree_name}}</template><type>update</type><use_current_record_as_condition>true</use_current_record_as_condition><use_fields_for_ref_lookup>false</use_fields_for_ref_lookup></sys_sg_write_back_action_item><sys_translated_text action="delete_multiple" query="documentkey=d0fe1f458757b850f09865709bbb3558"/></record_update>]]></payload>
+        <payload_hash>-1695696230</payload_hash>
+        <record_name>Edit</record_name>
+        <reverted_from/>
+        <source>5679f304879ff050f09865709bbb35cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-18 14:44:25</sys_created_on>
+        <sys_id>232fb4158753701038d1657f8bbb355a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c93dc5e8c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-18 14:44:25</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>272fb415ca537010178f3b8f3d37e159</update_guid>
+        <update_guid_history>272fb415ca537010178f3b8f3d37e159:-1695696230,c93e7c91a35370107b89536e333e89fb:-870388589,18fe1f455457b850589f5069aff64df2:2099362531,363f9b851257b850cdfb40768a04ac17:-309741097,18fe1f455457b850589f5069aff64df2:2099362531</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-21 10:54:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>014ecaed0a9e4247926758fa76ca67a1</sys_id>
+        <sys_metadata>d0fe1f458757b850f09865709bbb3558</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit</sys_name>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_scope_delete display_value="">001074d5401047f4800002541dd1fa84</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_d0fe1f458757b850f09865709bbb3558</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_d0fe1f458757b850f09865709bbb3558">232fb4158753701038d1657f8bbb355a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-21 10:54:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

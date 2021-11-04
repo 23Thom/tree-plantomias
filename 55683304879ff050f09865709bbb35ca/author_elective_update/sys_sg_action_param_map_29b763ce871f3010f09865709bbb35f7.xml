@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="New Button (All Tree Submissions)">61b763ce871f3010f09865709bbb35a9</button>
+        <item_parameter display_value="All Tree Submissions status">a9b763ce871f3010f09865709bbb35a2</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-21 10:56:11</sys_created_on>
+        <sys_id>29b763ce871f3010f09865709bbb35f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a9b763ce871f3010f09865709bbb35a2</sys_name>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_29b763ce871f3010f09865709bbb35f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-21 10:56:11</sys_updated_on>
+        <ui_parameter display_value="Status">2db763ce871f3010f09865709bbb35df</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</application>
+        <file_path/>
+        <instance_id>b378c1bfdb09f810a667cac5059619fe</instance_id>
+        <instance_name>demothom</instance_name>
+        <name>sys_sg_action_param_map_29b763ce871f3010f09865709bbb35f7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="New Button (All Tree Submissions)">61b763ce871f3010f09865709bbb35a9</button><item_parameter display_value="All Tree Submissions status">a9b763ce871f3010f09865709bbb35a2</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-21 10:56:11</sys_created_on><sys_id>29b763ce871f3010f09865709bbb35f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>a9b763ce871f3010f09865709bbb35a2</sys_name><sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package><sys_policy/><sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope><sys_update_name>sys_sg_action_param_map_29b763ce871f3010f09865709bbb35f7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-21 10:56:11</sys_updated_on><ui_parameter display_value="Status">2db763ce871f3010f09865709bbb35df</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>1500140210</payload_hash>
+        <record_name>a9b763ce871f3010f09865709bbb35a2</record_name>
+        <reverted_from/>
+        <source>5679f304879ff050f09865709bbb35cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-21 10:56:12</sys_created_on>
+        <sys_id>b1b7a3ce871f3010f09865709bbb35f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ca27e83450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-21 10:56:12</sys_updated_on>
+        <type>Action parameters mapping</type>
+        <update_guid>3db7a3ce791f30105f6253f04e4e3bf3</update_guid>
+        <update_guid_history>3db7a3ce791f30105f6253f04e4e3bf3:1500140210</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-21 12:43:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>c6f81b3f243d4d669aeb70c3a7dcca91</sys_id>
+        <sys_metadata>29b763ce871f3010f09865709bbb35f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a9b763ce871f3010f09865709bbb35a2</sys_name>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_scope_delete display_value="">001074d5401047f4800002541dd1fa84</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_29b763ce871f3010f09865709bbb35f7</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_29b763ce871f3010f09865709bbb35f7">b1b7a3ce871f3010f09865709bbb35f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-21 12:43:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

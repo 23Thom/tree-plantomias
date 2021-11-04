@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Delete Swipe (Tree Submissions)">48fedb458757b850f09865709bbb35fd</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Delete</label>
+        <location>leading_swipe</location>
+        <name>Delete</name>
+        <order/>
+        <parent>44fedb458757b850f09865709bbb35f8</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-18 07:43:56</sys_created_on>
+        <sys_id>8cfe1f458757b850f09865709bbb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete</sys_name>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name>sys_sg_button_instance_8cfe1f458757b850f09865709bbb3500</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-18 07:43:56</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=8cfe1f458757b850f09865709bbb3500"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</application>
+        <file_path/>
+        <instance_id>b378c1bfdb09f810a667cac5059619fe</instance_id>
+        <instance_name>demothom</instance_name>
+        <name>sys_sg_button_instance_8cfe1f458757b850f09865709bbb3500</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Delete Swipe (Tree Submissions)">48fedb458757b850f09865709bbb35fd</button><color_theme>primary</color_theme><description/><field_name/><icon/><label>Delete</label><location>leading_swipe</location><name>Delete</name><order/><parent>44fedb458757b850f09865709bbb35f8</parent><parent_table>sys_sg_master_item</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-18 07:43:56</sys_created_on><sys_id>8cfe1f458757b850f09865709bbb3500</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delete</sys_name><sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package><sys_policy/><sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope><sys_update_name>sys_sg_button_instance_8cfe1f458757b850f09865709bbb3500</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-18 07:43:56</sys_updated_on><table/></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=8cfe1f458757b850f09865709bbb3500"/></record_update>]]></payload>
+        <payload_hash>-814714315</payload_hash>
+        <record_name>Delete</record_name>
+        <reverted_from/>
+        <source>2740ab098757b850f09865709bbb352d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-18 07:50:01</sys_created_on>
+        <sys_id>5950eb098757b850f09865709bbb35d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c9260fba40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-18 07:50:01</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>a0fe5f45fa57b8500eaafaa5df04485a</update_guid>
+        <update_guid_history>a0fe5f45fa57b8500eaafaa5df04485a:-814714315,863fd785de57b8509fa900f4745bdaef:-165077847,a0fe5f45fa57b8500eaafaa5df04485a:-814714315</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-21 10:54:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>571942ee0f154b708068e38f43779890</sys_id>
+        <sys_metadata>8cfe1f458757b850f09865709bbb3500</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete</sys_name>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_scope_delete display_value="">001074d5401047f4800002541dd1fa84</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_8cfe1f458757b850f09865709bbb3500</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_8cfe1f458757b850f09865709bbb3500">5950eb098757b850f09865709bbb35d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-21 10:54:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
