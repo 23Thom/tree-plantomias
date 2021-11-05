@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -11,26 +11,25 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
         <internal_name>plant_check_flow</internal_name>
-        <label_cache>[]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"6ad93c73-c044-4a69-81a6-d96838e1e99d.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"6ad93c73-c044-4a69-81a6-d96838e1e99d.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Updated_1.current.sys_id","label":"Trigger➛Tree Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_tree_plant_0_tree","column_name":"sys_id"},{"name":"Updated_1.table_name","label":"Trigger➛Tree Table","reference":"x_snc_tree_plant_0_tree","reference_display":"Tree","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"f54297ec-b828-4010-9497-8fb0080f178d.is_a_plant","label":"1➛Is a Plant","reference_display":"Is a Plant","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3799a2c7-a6ac-47e3-a5cd-4d81b0161c10"}},{"name":"f54297ec-b828-4010-9497-8fb0080f178d.probability","label":"1➛Probability","reference_display":"Probability","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b01dda7f-b338-462a-bf81-5e280bf93483"}},{"name":"f54297ec-b828-4010-9497-8fb0080f178d.common_name","label":"1➛Common Name","reference_display":"Common Name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d8e28dd3-9867-41cc-a9d2-fcbe70715392"}},{"name":"f54297ec-b828-4010-9497-8fb0080f178d.plant_name","label":"1➛Plant Name","reference_display":"Plant Name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f5aa932e-7566-4e5c-b906-89a033caf42a"}},{"name":"f54297ec-b828-4010-9497-8fb0080f178d.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0dee6638-eccd-4113-a6ef-3320c4cd5d6b"}},{"name":"f54297ec-b828-4010-9497-8fb0080f178d.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDcc60a14ef5cb741053afee878cca767a","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"3797e487-d98f-4a35-a29d-8b36d451b194"}},{"name":"04ebf75a-f8ef-45a9-b4cb-8ab556a0bc6c.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"04ebf75a-f8ef-45a9-b4cb-8ab556a0bc6c.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>8d3569478727349038d1657f8bbb35ba</master_snapshot>
         <name>Plant Check Flow</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id/>
+        <remote_trigger_id>a935e9478727349038d1657f8bbb3513</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-18 12:37:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e6022019871fb850f09865709bbb3584</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Plant Check Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
@@ -38,11 +37,125 @@
         <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
         <sys_update_name>sys_hub_flow_e6022019871fb850f09865709bbb3584</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-18 12:37:06</sys_updated_on>
+        <sys_updated_on>2021-11-05 14:15:40</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=e6022019871fb850f09865709bbb3584"/>
     <sys_variable_value action="delete_multiple" query="document_key=e6022019871fb850f09865709bbb3584"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_tree_plant_0_tree">statusCHANGESTOapproved<item display_value="Approved" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="approved"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a935e9478727349038d1657f8bbb3513</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:39</sys_updated_on>
+        <table>x_snc_tree_plant_0_tree</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"e535e9478727349038d1657f8bbb3514","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>e6022019871fb850f09865709bbb3584</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:39</sys_created_on>
+        <sys_id>e535e9478727349038d1657f8bbb3514</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:39</sys_updated_on>
+        <trigger display_value="">a935e9478727349038d1657f8bbb3513</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>e535e9478727349038d1657f8bbb3514</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:39</sys_created_on>
+        <sys_id>2535e9478727349038d1657f8bbb3515</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e6022019871fb850f09865709bbb3584^sys_idNOT INe535e9478727349038d1657f8bbb3514"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e6022019871fb850f09865709bbb3584^sys_idNOT IN8c9365838727349038d1657f8bbb35b7"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Plant Check Flow">e6022019871fb850f09865709bbb3584</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>8c9365838727349038d1657f8bbb35b7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:39</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8c9365838727349038d1657f8bbb35b7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8c9365838727349038d1657f8bbb35b7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>1c9365838727349038d1657f8bbb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:08:27</sys_updated_on>
+        <value>statusCHANGESTOapproved</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8c9365838727349038d1657f8bbb35b7</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>509365838727349038d1657f8bbb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:08:27</sys_updated_on>
+        <value>always</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8c9365838727349038d1657f8bbb35b7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>dc9365838727349038d1657f8bbb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:08:27</sys_updated_on>
+        <value>x_snc_tree_plant_0_tree</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=8c9365838727349038d1657f8bbb35b7"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=e6022019871fb850f09865709bbb3584^sys_idNOT INa6022019871fb850f09865709bbb3587"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>e6022019871fb850f09865709bbb3584</id>
@@ -55,4 +168,1230 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-18 12:37:06</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=e6022019871fb850f09865709bbb3584^sys_idNOT IN089365838727349038d1657f8bbb359e,089365838727349038d1657f8bbb35af,cc9365838727349038d1657f8bbb35a8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Plant Check Flow">e6022019871fb850f09865709bbb3584</model>
+        <model_id>e6022019871fb850f09865709bbb3584</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e6022019871fb850f09865709bbb3584</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>089365838727349038d1657f8bbb359e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Plant Check Flow">e6022019871fb850f09865709bbb3584</model>
+        <model_id>e6022019871fb850f09865709bbb3584</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e6022019871fb850f09865709bbb3584</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>089365838727349038d1657f8bbb35af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDad35e947e327349058fa8a94070d3226,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Plant Check Flow">e6022019871fb850f09865709bbb3584</model>
+        <model_id>e6022019871fb850f09865709bbb3584</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e6022019871fb850f09865709bbb3584</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>cc9365838727349038d1657f8bbb35a8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e6022019871fb850f09865709bbb3584^sys_idNOT IN109365838727349038d1657f8bbb35c2,4ae3a1c38727349038d1657f8bbb3537,7e25a5478727349038d1657f8bbb3570"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Spoke plant recognition">3750a14e87cb7410f09865709bbb352e</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Plant Check Flow">e6022019871fb850f09865709bbb3584</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>109365838727349038d1657f8bbb35c2</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:40</sys_updated_on>
+        <ui_id>f54297ec-b828-4010-9497-8fb0080f178d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=109365838727349038d1657f8bbb35c2"/>
+    <sys_element_mapping action="delete_multiple" query="id=109365838727349038d1657f8bbb35c2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>109365838727349038d1657f8bbb35c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>d09365838727349038d1657f8bbb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:08:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3750a14e87cb7410f09865709bbb352e</table>
+        <value>{{Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>109365838727349038d1657f8bbb35c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>1c9365838727349038d1657f8bbb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:08:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3750a14e87cb7410f09865709bbb352e</table>
+        <value>{{Updated_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Plant Check Flow">e6022019871fb850f09865709bbb3584</flow>
+        <order>3</order>
+        <parent_ui_id>ee985483-d17b-4e33-97d9-f40caad6676e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:09:56</sys_created_on>
+        <sys_id>4ae3a1c38727349038d1657f8bbb3537</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:40</sys_updated_on>
+        <ui_id>04ebf75a-f8ef-45a9-b4cb-8ab556a0bc6c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4ae3a1c38727349038d1657f8bbb3537"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4ae3a1c38727349038d1657f8bbb3537</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:09:56</sys_created_on>
+        <sys_id>86e3a1c38727349038d1657f8bbb353a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:09:56</sys_updated_on>
+        <value>Apparently you didn't plant a tree/plant. I can't detect if that is a plant... are you sure you made a picture of a plant?!</value>
+        <variable display_value="Message">b09822431324030039a039ed9344b0c7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4ae3a1c38727349038d1657f8bbb3537</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:09:56</sys_created_on>
+        <sys_id>8ee3a1c38727349038d1657f8bbb353a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:09:56</sys_updated_on>
+        <value>Ups, no Plant detected</value>
+        <variable display_value="Title">f49822431324030039a039ed9344b0bb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_549822431324030039a039ed9344b085^id=4ae3a1c38727349038d1657f8bbb3537"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Plant Check Flow">e6022019871fb850f09865709bbb3584</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:27</sys_created_on>
+        <sys_id>7e25a5478727349038d1657f8bbb3570</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:40</sys_updated_on>
+        <ui_id>6ad93c73-c044-4a69-81a6-d96838e1e99d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7e25a5478727349038d1657f8bbb3570"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e25a5478727349038d1657f8bbb3570</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:27</sys_created_on>
+        <sys_id>b625a5478727349038d1657f8bbb3573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:27</sys_updated_on>
+        <value>Jeppii - new plant has been planted!!!</value>
+        <variable display_value="Title">f49822431324030039a039ed9344b0bb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7e25a5478727349038d1657f8bbb3570"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>7e25a5478727349038d1657f8bbb3570</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:27</sys_created_on>
+        <sys_id>7e25a5478727349038d1657f8bbb3572</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value>A new plant called {{f54297ec-b828-4010-9497-8fb0080f178d.plant_name}} also known as {{f54297ec-b828-4010-9497-8fb0080f178d.common_name}} has been planted!! Probability that it is a plant is: {{f54297ec-b828-4010-9497-8fb0080f178d.probability}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_title</field>
+        <id>7e25a5478727349038d1657f8bbb3570</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:27</sys_created_on>
+        <sys_id>3625a5478727349038d1657f8bbb3573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e6022019871fb850f09865709bbb3584^sys_idNOT IN909365838727349038d1657f8bbb35c6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">509365838727349038d1657f8bbb35c5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Plant Check Flow">e6022019871fb850f09865709bbb3584</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>909365838727349038d1657f8bbb35c6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:40</sys_updated_on>
+        <ui_id>ee985483-d17b-4e33-97d9-f40caad6676e</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=909365838727349038d1657f8bbb35c6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>909365838727349038d1657f8bbb35c6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:28</sys_created_on>
+        <sys_id>d49365838727349038d1657f8bbb35ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:08:28</sys_updated_on>
+        <value>Check if its a Tree/plant</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=909365838727349038d1657f8bbb35c6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>909365838727349038d1657f8bbb35c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:28</sys_created_on>
+        <sys_id>549365838727349038d1657f8bbb35ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:08:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f54297ec-b828-4010-9497-8fb0080f178d.is_a_plant}}=false</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>909365838727349038d1657f8bbb35c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:28</sys_created_on>
+        <sys_id>909365838727349038d1657f8bbb35ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:08:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e6022019871fb850f09865709bbb3584^sys_idNOT IN409365838727349038d1657f8bbb35ae,449365838727349038d1657f8bbb35b4,809365838727349038d1657f8bbb35a7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e6022019871fb850f09865709bbb3584</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>409365838727349038d1657f8bbb35ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:08:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e6022019871fb850f09865709bbb3584</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>449365838727349038d1657f8bbb35b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:08:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e6022019871fb850f09865709bbb3584</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:08:27</sys_created_on>
+        <sys_id>809365838727349038d1657f8bbb35a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:08:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e6022019871fb850f09865709bbb3584^sys_idNOT INad35e9478727349038d1657f8bbb3515"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>e6022019871fb850f09865709bbb3584</plan_id>
+        <snapshot>8d3569478727349038d1657f8bbb35ba</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad35e9478727349038d1657f8bbb3515</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:39</sys_updated_on>
+        <trigger display_value="">a935e9478727349038d1657f8bbb3513</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>plant_check_flow</internal_name>
+        <label_cache>[{"name":"6ad93c73-c044-4a69-81a6-d96838e1e99d.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"6ad93c73-c044-4a69-81a6-d96838e1e99d.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Updated_1.current.sys_id","label":"Trigger➛Tree Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_tree_plant_0_tree","column_name":"sys_id"},{"name":"Updated_1.table_name","label":"Trigger➛Tree Table","reference":"x_snc_tree_plant_0_tree","reference_display":"Tree","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"f54297ec-b828-4010-9497-8fb0080f178d.is_a_plant","label":"1➛Is a Plant","reference_display":"Is a Plant","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3799a2c7-a6ac-47e3-a5cd-4d81b0161c10"}},{"name":"f54297ec-b828-4010-9497-8fb0080f178d.probability","label":"1➛Probability","reference_display":"Probability","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b01dda7f-b338-462a-bf81-5e280bf93483"}},{"name":"f54297ec-b828-4010-9497-8fb0080f178d.common_name","label":"1➛Common Name","reference_display":"Common Name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d8e28dd3-9867-41cc-a9d2-fcbe70715392"}},{"name":"f54297ec-b828-4010-9497-8fb0080f178d.plant_name","label":"1➛Plant Name","reference_display":"Plant Name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f5aa932e-7566-4e5c-b906-89a033caf42a"}},{"name":"f54297ec-b828-4010-9497-8fb0080f178d.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0dee6638-eccd-4113-a6ef-3320c4cd5d6b"}},{"name":"f54297ec-b828-4010-9497-8fb0080f178d.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDcc60a14ef5cb741053afee878cca767a","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"3797e487-d98f-4a35-a29d-8b36d451b194"}},{"name":"04ebf75a-f8ef-45a9-b4cb-8ab556a0bc6c.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"04ebf75a-f8ef-45a9-b4cb-8ab556a0bc6c.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Plant Check Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Plant Check Flow">e6022019871fb850f09865709bbb3584</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d3569478727349038d1657f8bbb35ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:36</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8d3569478727349038d1657f8bbb35ba"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8d3569478727349038d1657f8bbb35ba"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8d3569478727349038d1657f8bbb35ba^sys_idNOT INd135a9478727349038d1657f8bbb3586"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Plant Check Flow">8d3569478727349038d1657f8bbb35ba</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:38</sys_created_on>
+        <sys_id>d135a9478727349038d1657f8bbb3586</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:39</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d135a9478727349038d1657f8bbb3586"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d135a9478727349038d1657f8bbb3586</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:38</sys_created_on>
+        <sys_id>1135a9478727349038d1657f8bbb3588</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:38</sys_updated_on>
+        <value>always</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d135a9478727349038d1657f8bbb3586</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:38</sys_created_on>
+        <sys_id>9535a9478727349038d1657f8bbb3588</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:38</sys_updated_on>
+        <value>x_snc_tree_plant_0_tree</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d135a9478727349038d1657f8bbb3586</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:38</sys_created_on>
+        <sys_id>d135a9478727349038d1657f8bbb3588</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:38</sys_updated_on>
+        <value>statusCHANGESTOapproved</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=d135a9478727349038d1657f8bbb3586"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8d3569478727349038d1657f8bbb35ba^sys_idNOT IN0d3569478727349038d1657f8bbb35bc"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8d3569478727349038d1657f8bbb35ba</id>
+        <name>Plant Check Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:36</sys_created_on>
+        <sys_id>0d3569478727349038d1657f8bbb35bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=8d3569478727349038d1657f8bbb35ba^sys_idNOT IN493569478727349038d1657f8bbb35f5,8d35a9478727349038d1657f8bbb3500,c13569478727349038d1657f8bbb35c0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD8d3569478a273490388b9219d368a0bd,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Plant Check Flow">8d3569478727349038d1657f8bbb35ba</model>
+        <model_id>8d3569478727349038d1657f8bbb35ba</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8d3569478727349038d1657f8bbb35ba</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:36</sys_created_on>
+        <sys_id>493569478727349038d1657f8bbb35f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Plant Check Flow">8d3569478727349038d1657f8bbb35ba</model>
+        <model_id>8d3569478727349038d1657f8bbb35ba</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8d3569478727349038d1657f8bbb35ba</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>8d35a9478727349038d1657f8bbb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Plant Check Flow">8d3569478727349038d1657f8bbb35ba</model>
+        <model_id>8d3569478727349038d1657f8bbb35ba</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8d3569478727349038d1657f8bbb35ba</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:36</sys_created_on>
+        <sys_id>c13569478727349038d1657f8bbb35c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8d3569478727349038d1657f8bbb35ba^sys_idNOT IN9d35a9478727349038d1657f8bbb3573,c535a9478727349038d1657f8bbb3538,d135a9478727349038d1657f8bbb3584"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <action_type_parent display_value="Post a Message">23be39c713e0030039a039ed9344b058</action_type_parent>
+        <comment/>
+        <compiled_snapshot>549822431324030039a039ed9344b085</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Plant Check Flow">8d3569478727349038d1657f8bbb35ba</flow>
+        <order>3</order>
+        <parent_ui_id>ee985483-d17b-4e33-97d9-f40caad6676e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>9d35a9478727349038d1657f8bbb3573</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <ui_id>04ebf75a-f8ef-45a9-b4cb-8ab556a0bc6c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9d35a9478727349038d1657f8bbb3573"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9d35a9478727349038d1657f8bbb3573</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>5d35a9478727349038d1657f8bbb3575</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <value>Ups, no Plant detected</value>
+        <variable display_value="Title">f49822431324030039a039ed9344b0bb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9d35a9478727349038d1657f8bbb3573</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>9935a9478727349038d1657f8bbb3575</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <value>Apparently you didn't plant a tree/plant. I can't detect if that is a plant... are you sure you made a picture of a plant?!</value>
+        <variable display_value="Message">b09822431324030039a039ed9344b0c7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_549822431324030039a039ed9344b085^id=9d35a9478727349038d1657f8bbb3573"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Spoke plant recognition">3750a14e87cb7410f09865709bbb352e</action_type>
+        <action_type_parent display_value="Spoke plant recognition">ec33d0ca87c37410f09865709bbb3593</action_type_parent>
+        <comment/>
+        <compiled_snapshot>3750a14e87cb7410f09865709bbb352e</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Plant Check Flow">8d3569478727349038d1657f8bbb35ba</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>c535a9478727349038d1657f8bbb3538</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <ui_id>f54297ec-b828-4010-9497-8fb0080f178d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c535a9478727349038d1657f8bbb3538"/>
+    <sys_element_mapping action="delete_multiple" query="id=c535a9478727349038d1657f8bbb3538"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>c535a9478727349038d1657f8bbb3538</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>8935a9478727349038d1657f8bbb3539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3750a14e87cb7410f09865709bbb352e</table>
+        <value>{{Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c535a9478727349038d1657f8bbb3538</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>4d35a9478727349038d1657f8bbb3539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3750a14e87cb7410f09865709bbb352e</table>
+        <value>{{Updated_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <action_type_parent display_value="Post a Message">23be39c713e0030039a039ed9344b058</action_type_parent>
+        <comment/>
+        <compiled_snapshot>549822431324030039a039ed9344b085</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Plant Check Flow">8d3569478727349038d1657f8bbb35ba</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>d135a9478727349038d1657f8bbb3584</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:38</sys_updated_on>
+        <ui_id>6ad93c73-c044-4a69-81a6-d96838e1e99d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d135a9478727349038d1657f8bbb3584"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d135a9478727349038d1657f8bbb3584</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:38</sys_created_on>
+        <sys_id>dd35a9478727349038d1657f8bbb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:38</sys_updated_on>
+        <value>Jeppii - new plant has been planted!!!</value>
+        <variable display_value="Title">f49822431324030039a039ed9344b0bb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d135a9478727349038d1657f8bbb3584"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>d135a9478727349038d1657f8bbb3584</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:38</sys_created_on>
+        <sys_id>9935a9478727349038d1657f8bbb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value>A new plant called {{f54297ec-b828-4010-9497-8fb0080f178d.plant_name}} also known as {{f54297ec-b828-4010-9497-8fb0080f178d.common_name}} has been planted!! Probability that it is a plant is: {{f54297ec-b828-4010-9497-8fb0080f178d.probability}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_title</field>
+        <id>d135a9478727349038d1657f8bbb3584</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:38</sys_created_on>
+        <sys_id>5d35a9478727349038d1657f8bbb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=8d3569478727349038d1657f8bbb35ba^sys_idNOT IN4135a9478727349038d1657f8bbb351c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">509365838727349038d1657f8bbb35c5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Plant Check Flow">8d3569478727349038d1657f8bbb35ba</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>4135a9478727349038d1657f8bbb351c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <ui_id>ee985483-d17b-4e33-97d9-f40caad6676e</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4135a9478727349038d1657f8bbb351c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4135a9478727349038d1657f8bbb351c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>8d35a9478727349038d1657f8bbb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <value>Check if its a Tree/plant</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4135a9478727349038d1657f8bbb351c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>4135a9478727349038d1657f8bbb351c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>0d35a9478727349038d1657f8bbb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f54297ec-b828-4010-9497-8fb0080f178d.is_a_plant}}=false</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>4135a9478727349038d1657f8bbb351c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>4935a9478727349038d1657f8bbb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8d3569478727349038d1657f8bbb35ba^sys_idNOT IN093569478727349038d1657f8bbb35f1,4535a9478727349038d1657f8bbb3514,4d3569478727349038d1657f8bbb35fc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8d3569478727349038d1657f8bbb35ba</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:36</sys_created_on>
+        <sys_id>093569478727349038d1657f8bbb35f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8d3569478727349038d1657f8bbb35ba</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>4535a9478727349038d1657f8bbb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8d3569478727349038d1657f8bbb35ba</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 14:15:37</sys_created_on>
+        <sys_id>4d3569478727349038d1657f8bbb35fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 14:15:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>e6022019871fb850f09865709bbb3584</sys_id>
+        <latest_snapshot>8d3569478727349038d1657f8bbb35ba</latest_snapshot>
+    </sys_hub_flow>
 </record_update>

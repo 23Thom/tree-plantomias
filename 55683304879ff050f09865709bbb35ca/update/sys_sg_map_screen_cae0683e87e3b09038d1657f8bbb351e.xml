@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_map_screen">
+    <sys_sg_map_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Heart">d1b723ce871f3010f09865709bbb35c9</icon>
+        <name>Where are the trees</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_map_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-04 14:38:44</sys_created_on>
+        <sys_id>cae0683e87e3b09038d1657f8bbb351e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Where are the trees</sys_name>
+        <sys_package display_value="Tree Plantomias" source="x_snc_tree_plant_0">55683304879ff050f09865709bbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tree Plantomias">55683304879ff050f09865709bbb35ca</sys_scope>
+        <sys_update_name>sys_sg_map_screen_cae0683e87e3b09038d1657f8bbb351e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 13:56:03</sys_updated_on>
+    </sys_sg_map_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=cae0683e87e3b09038d1657f8bbb351e"/>
+</record_update>
